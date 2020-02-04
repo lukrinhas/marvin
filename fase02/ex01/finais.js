@@ -1,3 +1,4 @@
-function finais(palavra) {
-   console.log(finais("Ford Prefect"))
+function maiusculo(palavra) {
+    const palavras = palavra;
+    return palavra.substr(0,3).toUpperCase().concat(palavra.substring(3))
 }
