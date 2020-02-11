@@ -1,4 +1,4 @@
-function maiusculo(palavra) {
+function maiusculo(palavra){
 const palavras = palavra;
-return palavras.substring(3,0).toUpperCase().concat(palavra.substring(3))
+return palavra.substring(0,3).toUpperCase().concat(palavra.substring(3))
 }
