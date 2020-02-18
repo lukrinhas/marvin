@@ -1,7 +1,5 @@
-function tamanho(array){
-    var letras = array
-
-return letras.length;
+function classificar(array) {
+var un = array
+return un.sort()
 
 }
-
